@@ -1,16 +1,48 @@
-# React + Vite
+Crypto Price Tracker 🔍📈
+A simple React + Vite app that fetches live cryptocurrency market data (INR) and shows a searchable table of top coins.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
 
-Currently, two official plugins are available:
+Search cryptocurrencies by name (case-insensitive)
+Displays top coins (rank, logo, name, symbol, market cap, price in INR, circulating supply)
+Uses CoinGecko public API for real-time market data
+Built with React and Vite for fast development and HMR
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧰 Tech Stack
 
-## React Compiler
+Framework: React 19
+Bundler / Dev server: Vite
+Linting: ESLint
+API: CoinGecko public REST API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+💻 Local Setup
+Requirements:
 
-## Expanding the ESLint configuration
+Node.js (v16+ recommended)
+npm or yarn
+Install and run locally:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# install deps
+npm install
+
+# start dev server
+npm run dev
+
+# build for production
+npm run build
+
+# preview production build
+npm run preview
+
+# run linter
+npm run lint
+
+Open http://localhost:5173 in your browser (Vite will print the exact URL).
+
+📁 Project Structure (key files)
+
+index.html — App entry
+main.jsx — React entry point
+App.jsx — Main UI and data fetching (search + table)
+App.css — Styles
+package.json — Scripts & dependencies
