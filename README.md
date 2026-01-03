@@ -37,7 +37,6 @@ npm run preview
 # run linter
 npm run lint
 
-Open http://localhost:5173 in your browser (Vite will print the exact URL).
 
 📁 Project Structure (key files)
 
